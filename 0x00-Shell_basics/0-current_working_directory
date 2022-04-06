@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 #!/bin/bash
 pwd
+=======
+#! /bin/sh
+echo "$(cd "$(dirname "$1")"; pwd -P)/$(basename "$1")"
+>>>>>>> 48ac25b263a17b6ac2ee6e8de4f513cf5e33ca91
